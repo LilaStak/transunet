@@ -1,0 +1,6 @@
+tar zxvf cudnn-linux-x86_64-8.9.3.28_cuda11-archive.tar -C ./ 
+sudo cp cuda/include/cudnn.h /usr/local/cuda-11.8/targets/x86_64-linux/include/
+sudo cp cuda/lib64/libcudnn* /usr/local/cuda-11.8/targets/x86_64-linux/lib/
+tar zxvf cudnn-linux-x86_64-8.9.3.28_cuda11-archive.tar -C ./ 
+
+
